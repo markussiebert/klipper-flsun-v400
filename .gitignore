@@ -1,0 +1,17 @@
+# Exclude all files by default
+*
+
+# Include only specific configuration files
+!printer.cfg
+!printer_basic.cfg
+!resonance_tester.cfg
+!variables.cfg
+!macros.cfg
+!.gitignore
+!README.md
+
+# Exclude sensitive files (double protection)
+moonraker-obico*.cfg
+*obico*
+*.backup
+*-202*
